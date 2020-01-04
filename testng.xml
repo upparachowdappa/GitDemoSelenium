@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- <liseners>
+
+<lisener class-name="Academy.abc"/>
+<lisener class-name="resources.Extendeentreports"/>
+
+</liseners> -->
+
+
+	<test thread-count="5" name="Validating homepage">
+		<classes>
+			<class name="com.mycompany.app.HomePage" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Validating navigations">
+		<classes>
+			<class name="com.mycompany.app.validateNavigationBar" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="validations titles">
+		<classes>
+			<class name="com.mycompany.app.validateTitle" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

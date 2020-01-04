@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83600" started-at="2019-12-05T04:44:33Z" finished-at="2019-12-05T04:45:57Z">
+    <groups>
+    </groups>
+    <test name="Validating homepage" duration-ms="37347" started-at="2019-12-05T04:44:33Z" finished-at="2019-12-05T04:45:11Z">
+      <class name="com.mycompany.app.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.app.HomePage@146044d7]" name="initialize" is-config="true" duration-ms="4473" started-at="2019-12-05T04:44:33Z" finished-at="2019-12-05T04:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.app.HomePage@146044d7]" name="basePageNavigation" duration-ms="17246" started-at="2019-12-05T04:44:38Z" data-provider="getData" finished-at="2019-12-05T04:44:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.mycompany.app.HomePage@146044d7]" name="basePageNavigation" duration-ms="14809" started-at="2019-12-05T04:44:55Z" data-provider="getData" finished-at="2019-12-05T04:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.app.HomePage@146044d7]" name="teardown" is-config="true" duration-ms="787" started-at="2019-12-05T04:45:10Z" finished-at="2019-12-05T04:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.app.HomePage -->
+    </test> <!-- Validating homepage -->
+    <test name="Validating navigations" duration-ms="14722" started-at="2019-12-05T04:45:11Z" finished-at="2019-12-05T04:45:25Z">
+      <class name="com.mycompany.app.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.app.validateNavigationBar@429bd883]" name="initialize" is-config="true" duration-ms="14177" started-at="2019-12-05T04:45:11Z" finished-at="2019-12-05T04:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:com.mycompany.app.validateNavigationBar@429bd883]" name="basePageNavigation" duration-ms="301" started-at="2019-12-05T04:45:25Z" finished-at="2019-12-05T04:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.app.validateNavigationBar@429bd883]" name="teardown" is-config="true" duration-ms="241" started-at="2019-12-05T04:45:25Z" finished-at="2019-12-05T04:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.app.validateNavigationBar -->
+    </test> <!-- Validating navigations -->
+    <test name="validations titles" duration-ms="31256" started-at="2019-12-05T04:45:26Z" finished-at="2019-12-05T04:45:57Z">
+      <class name="com.mycompany.app.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.app.validateTitle@77e4c80f]" name="initialize" is-config="true" duration-ms="30463" started-at="2019-12-05T04:45:26Z" finished-at="2019-12-05T04:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:com.mycompany.app.validateTitle@77e4c80f]" name="basePageNavigation" duration-ms="110" started-at="2019-12-05T04:45:56Z" finished-at="2019-12-05T04:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mycompany.app.validateTitle@77e4c80f]" name="teardown" is-config="true" duration-ms="677" started-at="2019-12-05T04:45:56Z" finished-at="2019-12-05T04:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mycompany.app.validateTitle -->
+    </test> <!-- validations titles -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="validations titles(failed)">
+    <classes>
+      <class name="com.mycompany.app.validateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.mycompany.app.validateTitle -->
+    </classes>
+  </test> <!-- validations titles(failed) -->
+</suite> <!-- Failed suite [Suite] -->
